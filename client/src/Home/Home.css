@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    background-color: #4A249D;
+}
+.Home__mainContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    
+}
+
+.Home__leftContainer{
+    flex: 1;
+    margin-left: 50px;
+}
+.Home__title{
+    font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 28px;
+  font-style: normal;
+  color: #FCF8F3;
+}
+.Home__Para{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    font-style: normal;
+    color: #FCF8F3;
+    width: 375px;
+    line-height: 20px;
+}
+
+.Home__loginDiacliamer{
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-size: 8px;
+    font-style: normal;
+    color: #FCF8F3;
+   width: 375px;
+   
+}
+
+.Home__linkInput{
+    height: 20px;
+    width: 220px;
+    border: none;
+}
+
+.Home__convertButton{
+    height: 23px;
+cursor: pointer;
+}
+
+.Home__rightContainerImage{
+    flex: 1;
+    height: 300px;
+    width: 300px;
+}

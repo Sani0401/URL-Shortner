@@ -1,0 +1,33 @@
+
+.Header__mainContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 700px;
+   margin-left: 75px;
+    background-color: #4A249D;
+
+  
+}
+
+.Header__logo_icon{
+    height: 50px;
+    width: 50px;
+}
+
+.Header__ButtonContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.Header__loginButtonContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
