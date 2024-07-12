@@ -17,7 +17,7 @@ function Home() {
     console.log("This is the URL: ", url);
     try {
       const data = qs.stringify({ originalUrl: url });
-      const response = await axios.post("http://localhost:3000/convert", data, {
+      const response = await axios.post("https://url-shortner-backend-1-f5pi.onrender.com/convert", data, {
         headers: {
           "Content-Type": "application/x-www-form-urlencoded",
         },
