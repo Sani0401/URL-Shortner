@@ -6,7 +6,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path='/home' element={<pages.Home />} />
+        <Route path='/' element={<pages.Home />} />
       </Routes>
     </Router>
   );
